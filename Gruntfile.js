@@ -111,6 +111,7 @@ module.exports = function( grunt ) {
             },
             themes: {
                 files: {
+                    '<%= dirs.themes.dest %>/default-smooth.css': [ '<%= dirs.themes.src %>/base.less', '<%= dirs.themes.src %>/default-smooth.less' ],
                     '<%= dirs.themes.dest %>/default.css': [ '<%= dirs.themes.src %>/base.less', '<%= dirs.themes.src %>/default.less' ],
                     '<%= dirs.themes.dest %>/classic.css': [ '<%= dirs.themes.src %>/base.less', '<%= dirs.themes.src %>/classic.less' ],
                     '<%= dirs.themes.dest %>/default.date.css': [ '<%= dirs.themes.src %>/base.date.less', '<%= dirs.themes.src %>/default.date.less' ],
